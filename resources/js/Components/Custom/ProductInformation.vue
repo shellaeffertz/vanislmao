@@ -23,11 +23,10 @@ const elementStates = ref({
 
 onMounted(() => {
     const img = new Image();
-    img.src = `http://localhost:8000/storage/${props.product.image_url}`;
+    img.src = `https://vanislmao.com/storage/${props.product.image_url}`;
     img.onload = () => {
         imageLoaded.value = true;
 
-        // Reduced and tightened animation delays
         setTimeout(() => { elementStates.value.breadcrumb = true; }, 50);
         setTimeout(() => { elementStates.value.image = true; }, 100);
         setTimeout(() => { elementStates.value.title = true; }, 150);
