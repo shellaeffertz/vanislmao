@@ -59,33 +59,38 @@ const isLoading = ref(true);
 const animationComplete = ref(false);
 
 onMounted(() => {
-    // Initial mounting animation
+
     mounted.value = true;
 
-    // Simulate loading state
     setTimeout(() => {
         isLoading.value = false;
     }, 800);
 
-    // Set animation complete after all cards are loaded
     setTimeout(() => {
         animationComplete.value = true;
     }, 2000);
 });
 
-const copyToClipboard = async (text, type) => {
-    try {
-        await navigator.clipboard.writeText(text);
-        copiedStates.value[type] = true;
-        showToast.value = true;
+const copyToClipboard = (text) => {
+  try {
 
-        setTimeout(() => {
-            copiedStates.value[type] = false;
-            showToast.value = false;
-        }, 2000);
-    } catch (err) {
-        console.error('Failed to copy:', err);
-    }
+    const textArea = document.createElement('textarea');
+    textArea.value = text;
+    document.body.appendChild(textArea);
+
+    textArea.select();
+    document.execCommand('copy');
+
+    document.body.removeChild(textArea);
+
+    showToast.value = true;
+
+    setTimeout(() => {
+      showToast.value = false;
+    }, 2000);
+  } catch (err) {
+    console.error('Failed to copy:', err);
+  }
 };
 </script>
 
