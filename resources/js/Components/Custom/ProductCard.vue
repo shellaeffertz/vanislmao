@@ -22,7 +22,7 @@ defineProps({
             <div class="relative w-full h-52 overflow-hidden bg-gray-50">
                 <img
                     class="w-full h-full object-contain object-center transform transition-transform duration-500 group-hover:scale-110"
-                    :src="`http://localhost:8000/storage/${product.image_url}`"
+                    :src="`https://vanislmao.com/storage/${product.image_url}`"
                     alt="product image"
                 >
                 <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 translate-x-[-100%] group-hover:translate-x-[100%] transition-all duration-1000"></div>

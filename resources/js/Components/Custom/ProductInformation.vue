@@ -84,7 +84,7 @@ onMounted(() => {
 
                     <div class="relative aspect-square bg-gray-50 rounded-lg overflow-hidden">
                         <img
-                            :src="`http://localhost:8000/storage/${product.image_url}`"
+                            :src="`https://vanislmao.com/storage/${product.image_url}`"
                             :class="{'opacity-0': !imageLoaded, 'opacity-100': imageLoaded}"
                             class="w-full h-full object-contain object-center transition-all duration-700 transform group-hover:scale-105"
                             alt="product image"

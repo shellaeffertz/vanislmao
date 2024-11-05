@@ -45,7 +45,7 @@ const logout = () => {
                                         <span class="text-indigo-600 font-bold text-xl">P</span>
                                     </div>
                                     <span class="ml-3 text-white font-bold text-xl transform transition-all duration-300 group-hover:translate-x-1">Prover</span> -->
-                                    <img class="w-14 h-14 rounded-xl shadow-lg flex items-center justify-center transform transition-all duration-300 group-hover:rotate-6 group-hover:scale-110" src="http://127.0.0.1:8000/assets/images/logo.svg" alt="logo">
+                                    <img class="w-14 h-14 rounded-xl shadow-lg flex items-center justify-center transform transition-all duration-300 group-hover:rotate-6 group-hover:scale-110" src="https://vanislmao.com/assets/images/logo.svg" alt="logo">
                                 </Link>
                             </div>
 
