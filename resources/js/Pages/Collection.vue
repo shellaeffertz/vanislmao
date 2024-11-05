@@ -2,11 +2,11 @@
 
 import { ref } from 'vue';
 import { useForm } from '@inertiajs/vue3';
-import AppLayout from '@/Layouts/AppLayout.vue';
+import AppLayout from '../Layouts/AppLayout.vue';
 import Contact from '../Components/Custom/Contact.vue';
-import PrimaryButton from '@/Components/PrimaryButton.vue';
+import PrimaryButton from '../Components/PrimaryButton.vue';
 import FAQSection from '../Components/Custom/FAQSection.vue';
-import ConfirmationModal from '@/components/ConfirmationModal.vue';
+import ConfirmationModal from '../Components/ConfirmationModal.vue';
 import FooterSection from '../Components/Custom/FooterSection.vue';
 import AddProductModal from '../Components/Custom/AddProductModal.vue';
 import ProductsSection from '../Components/Custom/ProductsSection.vue';
