@@ -124,7 +124,7 @@ onMounted(() => {
                                 ? 'opacity-100 translate-y-0'
                                 : 'opacity-0 translate-y-10'"
                         >
-                            <p class="text-gray-600 leading-relaxed">
+                            <p class="text-gray-600 leading-relaxed whitespace-pre-line">
                                 {{ product.description }}
                             </p>
                         </div>
@@ -136,14 +136,14 @@ onMounted(() => {
                             ? 'opacity-100 translate-y-0'
                             : 'opacity-0 translate-y-10'"
                     >
-                        <button class="flex-1 bg-blue-600 text-white px-6 py-3 rounded-xl font-medium
+                        <a href="https://t.me/VANISZLMAO" target="_blank" class="block flex-1 text-center bg-blue-600 text-white px-6 py-3 rounded-xl font-medium
                                      transform transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25
                                      active:scale-95 group relative overflow-hidden">
                             <span class="relative z-10">Buy Now</span>
                             <div class="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-600
                                       transform translate-y-full transition-transform duration-300
                                       group-hover:translate-y-0"></div>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

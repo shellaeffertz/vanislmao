@@ -61,9 +61,10 @@ defineProps({
             </div>
 
             <div class="p-4">
-                <button
-                    type="button"
-                    class="relative w-full group/btn overflow-hidden rounded-lg bg-gradient-to-r from-blue-500 to-indigo-500 p-[2px] transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25"
+                <a
+                    href="https://t.me/VANISZLMAO"
+                    target="_blank"
+                    class="block relative w-full group/btn overflow-hidden rounded-lg bg-gradient-to-r from-blue-500 to-indigo-500 p-[2px] transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/25"
                 >
                     <div class="relative bg-white rounded-[6px] py-2.5 text-center transition-all duration-300 group-hover/btn:bg-opacity-0">
                         <span class="text-blue-600 font-medium transition-colors duration-300 group-hover/btn:text-white">
@@ -74,7 +75,7 @@ defineProps({
                             →
                         </span>
                     </div>
-                </button>
+                </a>
             </div>
 
         </div>
