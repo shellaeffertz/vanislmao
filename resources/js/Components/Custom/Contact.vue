@@ -5,7 +5,7 @@ import SectionHeader from './SectionHeader.vue';
 const contacts = [
     {
         type: 'telegram',
-        title: 'Telegram Channel',
+        title: 'Telegram',
         description: 'Get instant updates and connect with our community members in real-time.',
         link: 'https://t.me/VANISZLMAO',
         value: null,
@@ -20,7 +20,7 @@ const contacts = [
     },
     {
         type: 'email',
-        title: 'Email Contact',
+        title: 'Email',
         description: 'sales@vanislmao.com',
         value: 'sales@vanislmao.com',
         icon: 'fa-solid fa-envelope',
@@ -195,7 +195,7 @@ const copyToClipboard = (text) => {
                 :class="[showToast ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-0']"
             >
                 <i class="fa-solid fa-check text-green-400 w-4 h-4"></i>
-                <span class="text-sm font-medium">Copied to clipboard</span>
+                <span class="text-sm font-medium">Contact Copied</span>
             </div>
         </div>
     </section>

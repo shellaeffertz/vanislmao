@@ -18,14 +18,9 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         User::create([
-            'name' => 'madmans',
-            'email' => 'madmans@supplyou.com',
-            'password' => Hash::make('madmansmadmans'),
+            'name' => 'vanislmao',
+            'email' => 'vanislmao@vanislmao.com',
+            'password' => Hash::make('vanislmaovanislmao'),
         ]);
-
-        // Collection::create([
-        //     'title' => 'US business banks',
-        //     'description' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatibus, harum similique nam nulla nesciunt impedit voluptates cumque. Nulla nam officia aliquam corrupti facere sint inventore tempore tenetur porro eum.'
-        // ]);
     }
 }
