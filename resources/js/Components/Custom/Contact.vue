@@ -6,7 +6,7 @@ const contacts = [
     {
         type: 'telegram',
         title: 'Telegram',
-        description: 'Get instant updates and connect with our community members in real-time.',
+        description: 'Get in touch with us.',
         link: 'https://t.me/VANISZLMAO',
         value: null,
         icon: 'fa-solid fa-paper-plane',
@@ -142,7 +142,7 @@ const copyToClipboard = (text) => {
                                 </div>
                                 <!-- Action -->
                                 <div :class="`flex items-center text-sm ${contact.actionColor} font-medium opacity-0 group-hover:opacity-100 transition-all duration-500 transform translate-y-2 group-hover:translate-y-0`">
-                                    <span>Join Channel</span>
+                                    <span>Let's start</span>
                                     <i class="fa-solid fa-arrow-right ml-2 transition-transform duration-300 group-hover:translate-x-1"></i>
                                 </div>
                             </div>
